@@ -21,3 +21,7 @@
 /web/sites/*/themes/contrib/
 /web/core/
 /web/vendor/
+/web/modules/file_replace
+/web/themes/adaptivetheme
+/web/modules/contrib
+/web/themes/contrib

@@ -1,0 +1,19 @@
+name: Custom Theme
+type: theme
+description: 'Custom Theme For My Website'
+package: Other
+core_version_requirement: ^10
+libraries:
+        - custom_theme_1/global-styling
+base theme: ruhi
+regions:
+  branding: Branding
+  navigation: Main Navigation
+  search: Search
+  featured: Featured
+  content: Content
+  right_sidebar: Right sidebar
+  footer_first: Footer First
+  footer_second: Footer Second
+  footer_third: Footer Third
+  footer_bottom: Footer Bottom
