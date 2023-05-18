@@ -1,0 +1,38 @@
+uuid: 183c5fbf-4b38-4a42-8009-7822b3e1b416
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.guitar_types.body
+    - field.field.node.guitar_types.field_types
+    - node.type.guitar_types
+  module:
+    - text
+    - user
+id: node.guitar_types.default
+targetEntityType: node
+bundle: guitar_types
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_types:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

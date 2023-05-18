@@ -1,0 +1,18 @@
+uuid: e0b55af0-0573-40c6-bdb3-6c1593a8f4e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.fruits
+id: taxonomy_term.fruits.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: fruits
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

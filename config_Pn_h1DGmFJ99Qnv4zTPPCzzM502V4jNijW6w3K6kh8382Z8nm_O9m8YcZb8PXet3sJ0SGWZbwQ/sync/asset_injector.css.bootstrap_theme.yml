@@ -1,0 +1,67 @@
+uuid: a1d31383-5955-41b6-a512-ca44354f64cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: bootstrap_theme
+label: 'bootstrap theme'
+code: |-
+  /*Setting the size of the logo*/
+
+  .logo{
+  	width: 75px;
+  }
+
+  .logo img{
+  	width: 100%;
+  }
+
+  /* Slogan Setting */
+
+  .site-slogan {
+      font-weight: 300;
+  }
+
+  /*Setting the brand name*/
+
+  .navbar-brand {
+      font-size: 30px;
+      font-weight: 600;
+  }
+
+  /* Navbar rightmost content */
+
+  .navbar-nav{
+      justify-content: flex-end;
+      flex-direction: row-reverse;
+  }
+
+  /*Middle part of the navbar*/
+
+  .region.region-nav-main {
+      margin: auto;
+  }
+
+  /* Adding Margin to the Home title */
+  .js-quickedit-page-title {
+      margin: 20px 0 50px 0;
+  }
+
+  /* Aligning the home content */
+  .field--name-title.field--type-string.field--label-hidden.quickedit-field {
+  	padding-left:0px;
+  }
+  /*footer part*/
+  span{
+  	padding:8px;
+  }
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: bootstrap5
+contexts: {  }
+conditions_require_all: true

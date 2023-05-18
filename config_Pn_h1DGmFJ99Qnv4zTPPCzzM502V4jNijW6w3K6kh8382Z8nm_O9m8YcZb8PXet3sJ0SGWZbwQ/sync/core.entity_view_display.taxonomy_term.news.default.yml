@@ -1,0 +1,31 @@
+uuid: 37511fcf-1c04-4fc6-94e7-f20d9039fe26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.news.field_sports
+    - taxonomy.vocabulary.news
+  module:
+    - options
+    - text
+id: taxonomy_term.news.default
+targetEntityType: taxonomy_term
+bundle: news
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_sports:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

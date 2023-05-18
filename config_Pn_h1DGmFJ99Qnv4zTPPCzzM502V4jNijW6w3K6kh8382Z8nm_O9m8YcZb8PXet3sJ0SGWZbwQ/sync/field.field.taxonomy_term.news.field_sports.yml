@@ -1,0 +1,21 @@
+uuid: 2370619a-221d-464e-8d3b-32179ef0944d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_sports
+    - taxonomy.vocabulary.news
+  module:
+    - options
+id: taxonomy_term.news.field_sports
+field_name: field_sports
+entity_type: taxonomy_term
+bundle: news
+label: Sports
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

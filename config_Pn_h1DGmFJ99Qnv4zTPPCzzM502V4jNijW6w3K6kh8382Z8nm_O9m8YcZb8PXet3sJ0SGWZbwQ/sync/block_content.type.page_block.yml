@@ -1,0 +1,8 @@
+uuid: 3ce11065-a967-4266-a52c-81064e2a934e
+langcode: en
+status: true
+dependencies: {  }
+id: page_block
+label: 'Page Block'
+revision: 0
+description: ''

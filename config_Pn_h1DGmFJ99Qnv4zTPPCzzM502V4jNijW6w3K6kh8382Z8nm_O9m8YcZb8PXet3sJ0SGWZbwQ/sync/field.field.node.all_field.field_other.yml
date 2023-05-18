@@ -1,0 +1,28 @@
+uuid: 7d2fe74a-f55f-4f77-b57e-eaf847ad6479
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_other
+    - node.type.all_field
+id: node.all_field.field_other
+field_name: field_other
+entity_type: node
+bundle: all_field
+label: other
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      all_field: all_field
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

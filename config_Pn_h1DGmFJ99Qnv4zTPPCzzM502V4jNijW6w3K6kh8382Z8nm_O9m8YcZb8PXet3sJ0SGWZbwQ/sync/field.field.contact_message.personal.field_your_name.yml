@@ -1,0 +1,21 @@
+uuid: b8b47ff1-1a8d-470d-8ceb-eee65952573b
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.storage.contact_message.field_your_name
+  module:
+    - options
+id: contact_message.personal.field_your_name
+field_name: field_your_name
+entity_type: contact_message
+bundle: personal
+label: Name
+description: 'Write your full name'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

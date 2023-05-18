@@ -1,0 +1,23 @@
+uuid: 19ebcafe-fd0c-4a6b-accc-bac96116bd9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fruits
+  module:
+    - text
+id: node.fruits.body
+field_name: body
+entity_type: node
+bundle: fruits
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,30 @@
+uuid: 73937b8c-72d4-4358-bfb6-ac7deb88a6b1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b6c34018-bf62-4549-a044-d0503bd83ca3'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: testblock
+theme: bootstrap
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:b6c34018-bf62-4549-a044-d0503bd83ca3'
+settings:
+  id: 'block_content:b6c34018-bf62-4549-a044-d0503bd83ca3'
+  label: 'Test Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

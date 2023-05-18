@@ -1,0 +1,23 @@
+uuid: 649d0442-d921-4063-b44c-dc224cd1bf80
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bt1
+    - field.storage.block_content.field_no
+id: block_content.bt1.field_no
+field_name: field_no
+entity_type: block_content
+bundle: bt1
+label: 'no'
+description: 'this is a number field.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

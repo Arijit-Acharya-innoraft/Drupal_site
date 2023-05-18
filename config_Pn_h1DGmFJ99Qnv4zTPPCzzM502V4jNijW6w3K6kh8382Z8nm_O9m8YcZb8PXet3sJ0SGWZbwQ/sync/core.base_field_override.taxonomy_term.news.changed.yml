@@ -1,0 +1,18 @@
+uuid: cafb3a0c-e110-4161-bfe6-c7dca915f5f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.news
+id: taxonomy_term.news.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: news
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

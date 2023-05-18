@@ -1,0 +1,20 @@
+uuid: 53866436-6cb4-48d0-8d63-84e37e5c6fdb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ruhi
+_core:
+  default_config_hash: 0wp40IlneQ7aL73yYH8uecnISk55xnGbzU3xxLdjPV8
+id: ruhi_page_title
+theme: ruhi
+region: page_header
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

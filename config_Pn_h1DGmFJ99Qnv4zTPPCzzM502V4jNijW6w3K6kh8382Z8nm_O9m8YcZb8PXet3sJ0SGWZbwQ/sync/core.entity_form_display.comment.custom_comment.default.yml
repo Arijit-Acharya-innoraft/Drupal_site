@@ -1,0 +1,44 @@
+uuid: a0ed182b-2e62-4443-a0cd-24660c0ab14a
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.custom_comment
+    - field.field.comment.custom_comment.comment_body
+    - field.field.comment.custom_comment.field_new_comment_field
+  module:
+    - comment
+    - text
+id: comment.custom_comment.default
+targetEntityType: comment
+bundle: custom_comment
+mode: default
+content:
+  author:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  comment_body:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+  field_new_comment_field:
+    type: comment_default
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden:
+  subject: true

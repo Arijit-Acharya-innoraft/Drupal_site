@@ -1,0 +1,12 @@
+uuid: bb6113da-4295-4617-b079-f8895aa88cb4
+langcode: en
+status: true
+dependencies: {  }
+id: form2
+label: Form2
+recipients:
+  - arijit.acharya@innoraft.com
+reply: 'Thank You'
+weight: 4
+message: ''
+redirect: ''

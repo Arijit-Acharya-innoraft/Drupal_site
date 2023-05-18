@@ -1,0 +1,11 @@
+uuid: d3fec4f1-dc6d-4bd0-9952-75626dc27730
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.advertising
+id: contact_message.advertising
+target_entity_type_id: contact_message
+target_bundle: advertising
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,31 @@
+uuid: 2161a5e7-bc83-46c1-aac0-e58566a3f770
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.form2
+    - field.field.contact_message.form2.field_name_1
+  module:
+    - options
+id: contact_message.form2.default
+targetEntityType: contact_message
+bundle: form2
+mode: default
+content:
+  field_name_1:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  message:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

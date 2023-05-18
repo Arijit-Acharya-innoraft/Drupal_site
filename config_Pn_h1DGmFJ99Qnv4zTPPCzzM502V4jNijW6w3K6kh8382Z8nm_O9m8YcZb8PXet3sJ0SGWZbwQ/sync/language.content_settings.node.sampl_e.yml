@@ -1,0 +1,18 @@
+uuid: ea9ca5d4-ef94-4466-b112-417c3a61b649
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sampl_e
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.sampl_e
+target_entity_type_id: node
+target_bundle: sampl_e
+default_langcode: site_default
+language_alterable: true

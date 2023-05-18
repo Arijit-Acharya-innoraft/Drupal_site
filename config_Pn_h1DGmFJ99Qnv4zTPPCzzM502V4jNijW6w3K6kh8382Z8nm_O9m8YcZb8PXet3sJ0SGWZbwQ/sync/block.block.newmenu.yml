@@ -1,0 +1,29 @@
+uuid: c2f40449-d9ae-4a0e-a087-29d04a45248b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.new-menu
+  module:
+    - system
+  theme:
+    - bootstrap
+id: newmenu
+theme: bootstrap
+region: header
+weight: -8
+provider: null
+plugin: 'system_menu_block:new-menu'
+settings:
+  id: 'system_menu_block:new-menu'
+  label: 'New Menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

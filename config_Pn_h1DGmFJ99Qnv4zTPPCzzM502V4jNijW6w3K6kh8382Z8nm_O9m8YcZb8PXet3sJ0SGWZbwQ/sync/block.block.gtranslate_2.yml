@@ -1,0 +1,20 @@
+uuid: 149c9266-67b9-43ee-9b36-490fc674d8e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - gtranslate
+  theme:
+    - bootstrap
+id: gtranslate_2
+theme: bootstrap
+region: sidebar_second
+weight: -5
+provider: null
+plugin: gtranslate_block
+settings:
+  id: gtranslate_block
+  label: GTranslate
+  label_display: visible
+  provider: gtranslate
+visibility: {  }

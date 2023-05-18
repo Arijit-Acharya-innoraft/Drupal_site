@@ -1,0 +1,18 @@
+uuid: 3cd9e228-eaf7-4f17-b976-cc26a966b4f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.guitar_types
+id: node.guitar_types.created
+field_name: created
+entity_type: node
+bundle: guitar_types
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

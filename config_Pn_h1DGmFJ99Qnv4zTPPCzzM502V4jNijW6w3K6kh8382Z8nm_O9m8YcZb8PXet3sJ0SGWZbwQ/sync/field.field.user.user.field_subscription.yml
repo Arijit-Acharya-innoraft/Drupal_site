@@ -1,0 +1,29 @@
+uuid: 3b14271d-589e-4c29-896e-417117b8ebbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_subscription
+  module:
+    - options
+    - user
+id: user.user.field_subscription
+field_name: field_subscription
+entity_type: user
+bundle: user
+label: Subscription
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: '1'
+  -
+    value: '2'
+  -
+    value: '3'
+  -
+    value: '4'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

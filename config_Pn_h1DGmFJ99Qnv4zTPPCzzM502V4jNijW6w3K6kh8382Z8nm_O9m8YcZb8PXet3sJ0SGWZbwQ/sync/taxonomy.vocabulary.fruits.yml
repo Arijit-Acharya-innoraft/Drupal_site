@@ -1,0 +1,8 @@
+uuid: a6a6f94c-731e-4a70-872c-4643ac2ad0a0
+langcode: en
+status: true
+dependencies: {  }
+name: Fruits
+vid: fruits
+description: 'It contains all the name of the fruits'
+weight: 0

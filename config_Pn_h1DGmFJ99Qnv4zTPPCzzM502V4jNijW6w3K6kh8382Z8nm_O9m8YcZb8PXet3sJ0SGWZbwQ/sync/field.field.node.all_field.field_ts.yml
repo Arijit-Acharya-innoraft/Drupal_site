@@ -1,0 +1,21 @@
+uuid: 039921b3-d782-4701-8f34-b79ee84b8ff0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ts
+    - node.type.all_field
+id: node.all_field.field_ts
+field_name: field_ts
+entity_type: node
+bundle: all_field
+label: ts
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1682597012
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

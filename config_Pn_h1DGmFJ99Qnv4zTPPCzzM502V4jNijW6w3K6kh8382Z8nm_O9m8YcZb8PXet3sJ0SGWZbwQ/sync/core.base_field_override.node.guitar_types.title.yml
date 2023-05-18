@@ -1,0 +1,18 @@
+uuid: 0b6a2e02-8f1d-48dd-a176-755f420b6fb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.guitar_types
+id: node.guitar_types.title
+field_name: title
+entity_type: node
+bundle: guitar_types
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

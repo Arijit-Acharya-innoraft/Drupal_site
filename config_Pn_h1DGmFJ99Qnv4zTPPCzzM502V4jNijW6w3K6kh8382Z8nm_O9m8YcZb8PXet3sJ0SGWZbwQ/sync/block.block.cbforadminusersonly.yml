@@ -1,0 +1,38 @@
+uuid: 780528f3-5713-4ca7-9622-724b4196272f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6c5ad7be-f569-4463-8f1b-76fee07ea764'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - bootstrap5
+id: cbforadminusersonly
+theme: bootstrap5
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:6c5ad7be-f569-4463-8f1b-76fee07ea764'
+settings:
+  id: 'block_content:6c5ad7be-f569-4463-8f1b-76fee07ea764'
+  label: 'CB for admin users only'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

@@ -1,0 +1,20 @@
+uuid: 5b720caf-9802-4fdc-b269-5f3a5c307893
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.guitar_types
+  module:
+    - path
+id: node.guitar_types.path
+field_name: path
+entity_type: node
+bundle: guitar_types
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

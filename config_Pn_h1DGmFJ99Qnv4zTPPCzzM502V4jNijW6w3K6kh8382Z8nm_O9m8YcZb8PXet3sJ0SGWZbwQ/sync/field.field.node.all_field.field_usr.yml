@@ -1,0 +1,29 @@
+uuid: 9a6d3758-2ff4-4a9c-bac2-30ed9f88ec2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_usr
+    - node.type.all_field
+id: node.all_field.field_usr
+field_name: field_usr
+entity_type: node
+bundle: all_field
+label: usr
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

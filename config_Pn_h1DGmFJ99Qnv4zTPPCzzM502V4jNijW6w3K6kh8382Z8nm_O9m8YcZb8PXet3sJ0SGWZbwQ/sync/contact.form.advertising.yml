@@ -1,0 +1,12 @@
+uuid: 8bb89b0f-d238-4a1e-a672-6406752eb253
+langcode: en
+status: true
+dependencies: {  }
+id: advertising
+label: Advertising
+recipients:
+  - arijit.acharya@innoraft.com
+reply: 'Thank you for getting in touch, we will contact shortly.'
+weight: 0
+message: 'THANK YOU'
+redirect: ''

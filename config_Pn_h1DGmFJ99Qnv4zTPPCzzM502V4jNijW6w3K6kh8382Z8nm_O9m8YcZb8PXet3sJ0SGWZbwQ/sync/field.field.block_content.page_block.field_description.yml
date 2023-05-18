@@ -1,0 +1,19 @@
+uuid: 879c5b61-cb74-4457-b4e4-47a363995f6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.page_block
+    - field.storage.block_content.field_description
+id: block_content.page_block.field_description
+field_name: field_description
+entity_type: block_content
+bundle: page_block
+label: Description
+description: 'It gives the description about the page.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

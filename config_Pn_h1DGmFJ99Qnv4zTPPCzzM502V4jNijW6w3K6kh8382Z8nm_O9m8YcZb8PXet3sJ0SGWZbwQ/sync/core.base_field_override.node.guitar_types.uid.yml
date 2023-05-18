@@ -1,0 +1,20 @@
+uuid: ead25604-ca0b-48cb-a5e0-51482c478c55
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.guitar_types
+id: node.guitar_types.uid
+field_name: uid
+entity_type: node
+bundle: guitar_types
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

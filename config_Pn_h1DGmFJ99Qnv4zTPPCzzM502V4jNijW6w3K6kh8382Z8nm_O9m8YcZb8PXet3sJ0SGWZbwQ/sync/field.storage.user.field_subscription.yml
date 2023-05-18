@@ -1,0 +1,33 @@
+uuid: 85acb098-e220-4539-84a0-264617dfa657
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_subscription
+field_name: field_subscription
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: News
+    -
+      value: '2'
+      label: 'Important Announcements'
+    -
+      value: '3'
+      label: 'Offers, Discounts, Specials'
+    -
+      value: '4'
+      label: 'Partner Messages'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

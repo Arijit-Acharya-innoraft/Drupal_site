@@ -1,0 +1,41 @@
+uuid: c8862975-9140-41fb-8d87-912907b923b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.advertising
+    - field.field.contact_message.advertising.field_budget
+    - field.field.contact_message.advertising.field_name
+id: contact_message.advertising.default
+targetEntityType: contact_message
+bundle: advertising
+mode: default
+content:
+  field_budget:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  message:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

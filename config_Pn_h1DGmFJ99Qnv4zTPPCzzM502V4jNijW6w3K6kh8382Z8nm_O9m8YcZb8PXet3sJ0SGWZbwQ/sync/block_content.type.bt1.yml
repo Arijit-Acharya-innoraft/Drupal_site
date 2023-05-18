@@ -1,0 +1,8 @@
+uuid: bf6474a8-af6e-4a52-93cc-c6c1ca0ab9d3
+langcode: en
+status: true
+dependencies: {  }
+id: bt1
+label: bt1
+revision: 0
+description: 'this is custom block type 1'

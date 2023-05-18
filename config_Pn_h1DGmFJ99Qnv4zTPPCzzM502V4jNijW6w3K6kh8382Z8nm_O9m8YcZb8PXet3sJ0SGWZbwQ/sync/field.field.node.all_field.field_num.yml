@@ -1,0 +1,23 @@
+uuid: 13b4c9ac-7ec3-4bbe-ae32-e634a7a1927e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_num
+    - node.type.all_field
+id: node.all_field.field_num
+field_name: field_num
+entity_type: node
+bundle: all_field
+label: num
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

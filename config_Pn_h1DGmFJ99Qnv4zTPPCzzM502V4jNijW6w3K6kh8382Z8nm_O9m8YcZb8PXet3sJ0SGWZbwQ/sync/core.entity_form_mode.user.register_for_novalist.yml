@@ -1,0 +1,10 @@
+uuid: 31fd58cc-7357-42aa-9eff-d6dcb7e42106
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.register_for_novalist
+label: 'Register for novelist'
+targetEntityType: user
+cache: true

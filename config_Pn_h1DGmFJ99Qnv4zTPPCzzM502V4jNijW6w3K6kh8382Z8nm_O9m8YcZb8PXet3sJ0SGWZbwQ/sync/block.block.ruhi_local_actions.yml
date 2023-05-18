@@ -1,0 +1,20 @@
+uuid: 48067b40-fb45-47da-ac46-630732f7d10b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ruhi
+_core:
+  default_config_hash: Qcu3915PqsvF5a5wJOjSj4ywxWXHhBv2Vaske1S6OWM
+id: ruhi_local_actions
+theme: ruhi
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

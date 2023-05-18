@@ -1,0 +1,25 @@
+uuid: cae3f643-5880-450a-a6b1-8af3c654d601
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bt1
+    - field.storage.block_content.field_sign
+  module:
+    - webform
+id: block_content.bt1.field_sign
+field_name: field_sign
+entity_type: block_content
+bundle: bt1
+label: sign
+description: 'This is a sign field'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

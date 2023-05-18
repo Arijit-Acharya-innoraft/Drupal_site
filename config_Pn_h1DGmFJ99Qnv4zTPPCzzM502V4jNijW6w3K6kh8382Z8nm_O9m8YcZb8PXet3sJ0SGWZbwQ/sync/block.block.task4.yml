@@ -1,0 +1,30 @@
+uuid: 3dd528e6-1032-452a-9cde-8a6cdae99219
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:page_block:5babc9ec-d458-41c9-9b17-c32f6183bd4f'
+  module:
+    - block_content
+    - system
+  theme:
+    - ruhi
+id: task4
+theme: ruhi
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:5babc9ec-d458-41c9-9b17-c32f6183bd4f'
+settings:
+  id: 'block_content:5babc9ec-d458-41c9-9b17-c32f6183bd4f'
+  label: 'Task 4'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /articles

@@ -1,0 +1,35 @@
+uuid: af17d62b-6b41-48bc-b929-06b2f6cb952e
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.custom_comment
+    - field.field.comment.custom_comment.comment_body
+    - field.field.comment.custom_comment.field_new_comment_field
+  module:
+    - comment
+    - text
+id: comment.custom_comment.default
+targetEntityType: comment
+bundle: custom_comment
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_new_comment_field:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  links: true

@@ -1,0 +1,38 @@
+uuid: 5de9e73f-99eb-4749-8b83-fb7ded1e0bb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sampl_e.body
+    - field.field.node.sampl_e.field_sample_content
+    - node.type.sampl_e
+  module:
+    - text
+    - user
+id: node.sampl_e.default
+targetEntityType: node
+bundle: sampl_e
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_sample_content:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

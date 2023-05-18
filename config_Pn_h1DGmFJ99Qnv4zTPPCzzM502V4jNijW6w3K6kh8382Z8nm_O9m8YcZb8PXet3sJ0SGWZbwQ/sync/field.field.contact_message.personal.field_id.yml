@@ -1,0 +1,23 @@
+uuid: bb92f8f8-4421-4142-a6c1-2e2b80b3e0db
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.storage.contact_message.field_id
+id: contact_message.personal.field_id
+field_name: field_id
+entity_type: contact_message
+bundle: personal
+label: Id
+description: 'Write your Id'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

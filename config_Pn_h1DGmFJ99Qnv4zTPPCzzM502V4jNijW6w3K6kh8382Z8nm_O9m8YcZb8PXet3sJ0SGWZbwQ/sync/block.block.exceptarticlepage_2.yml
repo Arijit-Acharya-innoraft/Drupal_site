@@ -1,0 +1,39 @@
+uuid: 71effe0b-9185-4b15-894a-a2d712b776d6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:004443a3-4462-4828-9d9f-85e70b4e2ef5'
+  module:
+    - block_content
+    - node
+  theme:
+    - ruhi
+id: exceptarticlepage_2
+theme: ruhi
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:004443a3-4462-4828-9d9f-85e70b4e2ef5'
+settings:
+  id: 'block_content:004443a3-4462-4828-9d9f-85e70b4e2ef5'
+  label: 'Except Article page'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      faq: faq
+      fruits: fruits
+      guitar_types: guitar_types
+      page: page
+      review: review
+      sample: sample
+      sampl_e: sampl_e

@@ -1,0 +1,28 @@
+uuid: bedd9604-8def-4b71-859f-4e2ab78de66c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.all_field
+id: node.all_field.field_content
+field_name: field_content
+entity_type: node
+bundle: all_field
+label: content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      all_field: all_field
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

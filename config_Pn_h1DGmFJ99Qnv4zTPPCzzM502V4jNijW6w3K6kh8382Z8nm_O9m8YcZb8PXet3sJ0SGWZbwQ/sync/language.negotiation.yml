@@ -1,0 +1,21 @@
+_core:
+  default_config_hash: uEePITI9tV6WqzmsTb7MfPCi5yPWXSxAN1xeLcYFQbM
+session:
+  parameter: language
+url:
+  source: path_prefix
+  prefixes:
+    en: en
+    ru: ru
+    bn: bn
+    ar: ar
+    de: de
+    hi: hi
+  domains:
+    en: drupal_two.com
+    ru: ru.drupal_two.com
+    bn: bn.drupal_two.com
+    ar: ar.drupal_two.com
+    de: de.drupal_two.com
+    hi: hi.drupal_two.com
+selected_langcode: site_default

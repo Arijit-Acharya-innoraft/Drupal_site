@@ -1,0 +1,33 @@
+uuid: 4488b9fc-ae08-4a58-b184-aa3b759f3b38
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.guitar_types.body
+    - field.field.node.guitar_types.field_types
+    - node.type.guitar_types
+  module:
+    - text
+    - user
+id: node.guitar_types.teaser
+targetEntityType: node
+bundle: guitar_types
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_types: true
+  langcode: true

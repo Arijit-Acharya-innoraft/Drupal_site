@@ -1,0 +1,30 @@
+uuid: 29029e7a-ec07-4b4c-b351-ee1643b8b8e4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b6c34018-bf62-4549-a044-d0503bd83ca3'
+  module:
+    - block_content
+    - system
+  theme:
+    - custom_theme_1
+id: custom_theme_1_testblock_2
+theme: custom_theme_1
+region: branding
+weight: 0
+provider: null
+plugin: 'block_content:b6c34018-bf62-4549-a044-d0503bd83ca3'
+settings:
+  id: 'block_content:b6c34018-bf62-4549-a044-d0503bd83ca3'
+  label: 'Test Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

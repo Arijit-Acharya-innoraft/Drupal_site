@@ -1,0 +1,23 @@
+uuid: 5822ae2d-bdab-4956-ac15-f13b1b43f564
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.advertising
+    - field.storage.contact_message.field_budget
+id: contact_message.advertising.field_budget
+field_name: field_budget
+entity_type: contact_message
+bundle: advertising
+label: BUDGET
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

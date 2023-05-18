@@ -1,0 +1,9 @@
+display:
+  default:
+    display_options:
+      title: Фрукты
+  page_1:
+    display_options:
+      menu:
+        title: Фрукты
+    display_title: Фрукты

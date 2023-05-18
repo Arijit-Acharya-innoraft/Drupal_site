@@ -1,0 +1,43 @@
+uuid: 8ca26b56-66d0-4c8a-b754-fa679c5992b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.novel_details
+    - field.field.node.faq.body
+    - field.field.node.faq.field_image_1
+    - node.type.faq
+  module:
+    - image
+    - text
+    - user
+id: node.faq.novel_details
+targetEntityType: node
+bundle: faq
+mode: novel_details
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image_1:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

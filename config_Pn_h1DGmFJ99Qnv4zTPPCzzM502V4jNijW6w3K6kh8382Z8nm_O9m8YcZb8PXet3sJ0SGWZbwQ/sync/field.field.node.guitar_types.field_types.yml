@@ -1,0 +1,29 @@
+uuid: 01668fc6-65dd-44c8-93c7-3f594d324b4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_types
+    - node.type.guitar_types
+    - taxonomy.vocabulary.fruit
+id: node.guitar_types.field_types
+field_name: field_types
+entity_type: node
+bundle: guitar_types
+label: Types
+description: 'Enter the  type of guitars  that user might search for.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fruit: fruit
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

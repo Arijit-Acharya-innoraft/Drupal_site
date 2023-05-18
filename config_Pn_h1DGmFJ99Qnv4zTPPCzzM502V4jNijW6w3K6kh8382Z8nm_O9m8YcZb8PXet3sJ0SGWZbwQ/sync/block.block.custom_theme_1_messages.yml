@@ -1,0 +1,22 @@
+uuid: 000af50a-abac-497e-9f74-b54548d0143a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - custom_theme_1
+_core:
+  default_config_hash: '-XVizLHAsOW5B_cHrBPWjug4zSFAVPbqe1qD7rvtvj0'
+id: custom_theme_1_messages
+theme: custom_theme_1
+region: branding
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

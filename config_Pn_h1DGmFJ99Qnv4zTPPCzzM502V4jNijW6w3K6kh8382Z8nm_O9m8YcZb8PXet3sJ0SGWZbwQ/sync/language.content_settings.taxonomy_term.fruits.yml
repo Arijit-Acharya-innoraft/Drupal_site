@@ -1,0 +1,18 @@
+uuid: 35ba1ed2-dfa8-4ce4-ac94-7651c74b6260
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.fruits
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.fruits
+target_entity_type_id: taxonomy_term
+target_bundle: fruits
+default_langcode: site_default
+language_alterable: true

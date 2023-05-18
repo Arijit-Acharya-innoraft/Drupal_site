@@ -1,0 +1,18 @@
+uuid: daa434de-d6f8-4ba3-b47a-b308c069d250
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.fruits
+id: taxonomy_term.fruits.name
+field_name: name
+entity_type: taxonomy_term
+bundle: fruits
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

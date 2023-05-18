@@ -1,0 +1,23 @@
+uuid: 09772b29-9fcf-4660-9473-fda02ccba22a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tf
+    - node.type.all_field
+id: node.all_field.field_tf
+field_name: field_tf
+entity_type: node
+bundle: all_field
+label: TF
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

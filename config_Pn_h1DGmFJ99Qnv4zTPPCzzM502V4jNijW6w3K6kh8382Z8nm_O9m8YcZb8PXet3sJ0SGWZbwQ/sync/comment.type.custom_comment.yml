@@ -1,0 +1,8 @@
+uuid: 969c4975-6f9d-4d58-8d9d-743a3532cb3f
+langcode: en
+status: true
+dependencies: {  }
+id: custom_comment
+label: 'Custom Comment'
+target_entity_type_id: node
+description: 'This is a custom comment block.'

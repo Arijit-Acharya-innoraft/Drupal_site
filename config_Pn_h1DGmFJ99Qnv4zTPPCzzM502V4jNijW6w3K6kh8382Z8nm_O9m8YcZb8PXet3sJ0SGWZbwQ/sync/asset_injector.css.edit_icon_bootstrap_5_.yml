@@ -1,0 +1,22 @@
+uuid: 0953d611-e3aa-43ad-94b7-f240df5de8be
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: edit_icon_bootstrap_5_
+label: 'edit icon (bootstrap 5)'
+code: |-
+  .contextual {
+      top: -10px;
+      right: -20px;
+  }
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: bootstrap5
+contexts: {  }
+conditions_require_all: true

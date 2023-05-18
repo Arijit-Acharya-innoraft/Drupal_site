@@ -1,0 +1,10 @@
+uuid: 6cae0a12-9e43-4654-a9b6-a4c3b7c4f64e
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.new_view_mode
+label: 'New View Mode'
+targetEntityType: block_content
+cache: true

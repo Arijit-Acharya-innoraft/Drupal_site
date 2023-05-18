@@ -1,0 +1,20 @@
+uuid: fcfbbde6-50fb-41ba-be42-d8caa35343f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.fruits
+  module:
+    - path
+id: taxonomy_term.fruits.path
+field_name: path
+entity_type: taxonomy_term
+bundle: fruits
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

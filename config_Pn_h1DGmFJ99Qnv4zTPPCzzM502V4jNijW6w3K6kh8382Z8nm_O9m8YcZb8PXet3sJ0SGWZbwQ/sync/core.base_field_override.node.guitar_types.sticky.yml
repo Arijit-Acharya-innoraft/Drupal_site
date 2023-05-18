@@ -1,0 +1,22 @@
+uuid: 63aeec62-9c9b-4d2a-af71-43c75b035a9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.guitar_types
+id: node.guitar_types.sticky
+field_name: sticky
+entity_type: node
+bundle: guitar_types
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

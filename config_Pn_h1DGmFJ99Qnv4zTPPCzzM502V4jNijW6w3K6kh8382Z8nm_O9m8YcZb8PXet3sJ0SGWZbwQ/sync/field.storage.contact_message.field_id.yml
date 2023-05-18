@@ -1,0 +1,20 @@
+uuid: 781f70cc-3f95-472a-b1cf-2fa8598d345b
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_id
+field_name: field_id
+entity_type: contact_message
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

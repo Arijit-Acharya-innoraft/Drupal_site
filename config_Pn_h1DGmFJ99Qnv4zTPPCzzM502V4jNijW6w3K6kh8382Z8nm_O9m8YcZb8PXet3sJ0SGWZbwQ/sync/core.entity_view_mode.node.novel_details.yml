@@ -1,0 +1,10 @@
+uuid: 58f41c71-9363-40af-ab6b-827f5b1e00ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.novel_details
+label: 'novel details'
+targetEntityType: node
+cache: true

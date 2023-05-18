@@ -1,0 +1,8 @@
+uuid: 274b99d9-dd92-4ae8-934e-3e5a0df9142f
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: news
+description: 'Different types of News.'
+weight: 0

@@ -1,0 +1,22 @@
+uuid: f2adeaa4-a586-4285-9297-54ace6192d04
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: edit_icon
+label: 'edit icon(ruhi)'
+code: |-
+  .contextual {
+  	top:-10px;
+  	right:-25px;
+  }
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: ruhi
+contexts: {  }
+conditions_require_all: true

@@ -1,0 +1,18 @@
+uuid: 5440f0e0-8784-44b0-bc88-3269027ca790
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'All Field'
+type: all_field
+description: 'It contains all the field.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
