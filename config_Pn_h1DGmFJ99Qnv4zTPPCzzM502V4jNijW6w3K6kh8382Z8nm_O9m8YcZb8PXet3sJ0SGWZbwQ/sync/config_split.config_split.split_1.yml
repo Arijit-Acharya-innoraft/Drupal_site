@@ -1,0 +1,20 @@
+uuid: 14aa4269-fa80-4193-980e-310ea899a5c5
+langcode: en
+status: true
+dependencies: {  }
+id: split_1
+label: 'Split 1'
+description: ''
+weight: 0
+folder: ../config/menu_migration/split_1
+module:
+  devel: 0
+theme: {  }
+blacklist:
+  - admin_toolbar.settings
+  - admin_toolbar_tools.settings
+  - devel.settings
+graylist:
+  - block.block.views_block__latest_news_block_1
+graylist_dependents: true
+graylist_skip_equal: true

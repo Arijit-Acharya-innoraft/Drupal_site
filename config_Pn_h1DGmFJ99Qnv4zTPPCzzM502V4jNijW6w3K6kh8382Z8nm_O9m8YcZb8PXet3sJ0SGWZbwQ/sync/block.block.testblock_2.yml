@@ -1,0 +1,25 @@
+uuid: 249bdbe3-2b77-418f-a4e2-97f76252819c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b6c34018-bf62-4549-a044-d0503bd83ca3'
+  module:
+    - block_content
+  theme:
+    - bootstrap5
+id: testblock_2
+theme: bootstrap5
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:b6c34018-bf62-4549-a044-d0503bd83ca3'
+settings:
+  id: 'block_content:b6c34018-bf62-4549-a044-d0503bd83ca3'
+  label: 'Test Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
